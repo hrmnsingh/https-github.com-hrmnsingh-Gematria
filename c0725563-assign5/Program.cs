@@ -30,9 +30,9 @@ namespace c0725563_assignmnet5
             int x = 0;
             while (Letters[x] != letter)
             {
-                if (Letters[x++] == letter) return x;
+                if (Letters[x++] == letter) return -1;
             }
-            return -1;
+            return x+1;
         }
     }
 }
