@@ -15,6 +15,7 @@ namespace c0725563_assignmnet5
 
             Program2 orange = new Program2();
             Console.WriteLine(orange.Gematria("universe"));
+            Console.ReadLine();
 
         }
         public int Gematria(string word)
